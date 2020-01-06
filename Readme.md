@@ -23,4 +23,15 @@ The aim of this project is to partially reproduce this function.
 * flags #0-+ and space
 * precision and minimum field width
 
-## How tu use it ?
+**NB:** The function is merged with the [libft](https://github.com/Clemzerdu75/Libft) i made earlier, to be more easy to use in futur projects. A lib is created named **libftprintf.a**.
+
+You will find more informations about the function created for ft_printf, the older one and the new one created to help in a more global way in `./inc/libft.h` file.
+
+## How to use it ?
+
+- Run: `make`
+- Go to: `cd examples`
+- Run: `gcc -Wall -Werror -Wextra main.c ../libftprint.a`
+- Run `./a.out`
+
+**NB:** This main contains multiple examples to show you all the different possibilities of this function.
