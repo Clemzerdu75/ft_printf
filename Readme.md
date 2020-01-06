@@ -31,7 +31,7 @@ You will find more informations about the function created for ft_printf, the ol
 
 - Run: `make`
 - Go to: `cd examples`
-- Run: `gcc -Wall -Werror -Wextra main.c ../libftprint.a`
+- Run: `gcc  main.c ../libftprintf.a` (there will be warning that's normal! We're testing some undefined behaviors of the printf function)
 - Run `./a.out`
 
 **NB:** This main contains multiple examples to show you all the different possibilities of this function.
